@@ -592,13 +592,85 @@ video {
   grid-column: span 2 / span 2;
 }
 
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-end-4 {
+  grid-column-end: 4;
+}
+
 .row-span-2 {
   grid-row: span 2 / span 2;
+}
+
+.row-start-2 {
+  grid-row-start: 2;
+}
+
+.row-start-3 {
+  grid-row-start: 3;
+}
+
+.row-start-5 {
+  grid-row-start: 5;
+}
+
+.row-start-9 {
+  grid-row-start: 9;
+}
+
+.row-start-4 {
+  grid-row-start: 4;
+}
+
+.row-end-3 {
+  grid-row-end: 3;
+}
+
+.row-end-4 {
+  grid-row-end: 4;
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mr-32 {
+  margin-right: 8rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.mr-44 {
+  margin-right: 11rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .flex {
@@ -609,6 +681,26 @@ video {
   display: grid;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-36 {
+  height: 9rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
 }
@@ -617,10 +709,46 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-7 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .self-center {
@@ -630,6 +758,39 @@ video {
 .bg-\[\#0c2340\] {
   --tw-bg-opacity: 1;
   background-color: rgb(12 35 64 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .font-bold {
