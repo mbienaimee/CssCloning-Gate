@@ -2,7 +2,20 @@
 export default {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontWeight: {
+        color: [
+          [
+            "Libre Franklin",
+            "Helvetica Neue",
+            Helvetica,
+            Arial,
+            Verdana,
+            sans - serif,
+          ],
+        ],
+      },
+    },
   },
   plugins: [],
 };
