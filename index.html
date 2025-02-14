@@ -83,64 +83,73 @@
     </div>
 
     <!-- Second -->
-    <div class="grid grid-cols-12 gap-32 pt-5 text-[#0c2340]">
-      <div class="col-span-4">
-        <img src="/image/globering_2025.jpeg" alt="" />
+    <div
+      class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-32 pt-5 text-[#0c2340]"
+    >
+      <!-- Left Column -->
+      <div class="lg:col-span-4">
+        <div class="relative">
+          <img
+            src="/image/globering_2025.jpeg"
+            alt="Globe ring news"
+            class="w-full object-cover"
+          />
+        </div>
         <div class="pt-4">
-          <h1>UNIVERSITY</h1>
-          <p class="text-3xl">
-            University of Notre <br />
-            Dame wins award <br />
-            for excellence in <br />
-            campus <br />
+          <h1 class="text-lg mb-2">UNIVERSITY</h1>
+          <p class="text-2xl md:text-3xl font-medium leading-tight">
+            University of Notre Dame wins award for excellence in campus
             internationalization
           </p>
         </div>
       </div>
-      <div class="col-span-8">
-        <div class="bg-[] pt-20">
-          <h1 class="text-xl">Colleges and Schools</h1>
-          <p class="text-3xl pb-5 pt-2">
-            Physicist Laura Fields granted a Presidential Early <br />
-            Career Award
+
+      <!-- Right Column -->
+      <div class="lg:col-span-8">
+        <!-- First News Item -->
+        <div class="pt-8 lg:pt-20">
+          <h1 class="text-lg md:text-xl">Colleges and Schools</h1>
+          <p class="text-2xl md:text-3xl pb-5 pt-2 leading-tight">
+            Physicist Laura Fields granted a Presidential Early Career Award
           </p>
         </div>
-        <div class="pt-20">
-          <h1 class="text-xl">Global</h1>
-          <p class="text-3xl pb-5 pt-2">
-            University of Notre Dame and Pontificia <br />
-            Universidad Católica de Chile dual PhD program <br />
-            welcomes all disciplines
+
+        <!-- Second News Item -->
+        <div class="pt-8 lg:pt-20">
+          <h1 class="text-lg md:text-xl">Global</h1>
+          <p class="text-2xl md:text-3xl pb-5 pt-2 leading-tight">
+            University of Notre Dame and Pontificia Universidad Católica de
+            Chile dual PhD program welcomes all disciplines
           </p>
         </div>
       </div>
     </div>
-
     <!-- fourth -->
-    <div class="w-full h-[1220px] bg-cover relative mt-10">
+    <div class="w-full h-auto lg:h-[1220px] bg-cover relative mt-10">
       <div
-        class="absolute h-[1220px] w-full bg-gradient-to-r from-[#081629] to-[#081629] text-white"
+        class="absolute w-full bg-gradient-to-r from-[#081629] to-[#081629] text-white h-auto lg:h-[1220px]"
       >
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-y-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-y-10">
           <img
-            class="col-span-6"
+            class="col-span-12 lg:col-span-6 w-full"
             src="/image/pillar-research-1200.avif"
             alt=""
           />
-          <div class="md:col-span-6 pt-10 ml-20">
+          <div class="col-span-12 lg:col-span-6 pt-10 px-4 lg:ml-20">
             <h1 class="pb-5">Research</h1>
             <p class="text-4xl font-bold pb-5">The Opportunity of Inquiry</p>
             <div class="bg-[#d39f10] w-10 h-1"></div>
-            <!-- <hr  /> -->
             <p class="font-normal pb-10 pt-10">
               For scholars who share a common passion for inquiry because of
-              what it <br />
-              can reveal about our world and ourselves, there is opportunity
-              here.
+              what it can reveal about our world and ourselves, there is
+              opportunity here.
             </p>
-            <p class="p-2 border rounded-lg w-40 ml-72">Research at ND</p>
+            <p class="p-2 border rounded-lg w-40 ml-0 lg:ml-72">
+              Research at ND
+            </p>
           </div>
-          <div class="md:col-span-6 pt-10 ml-20">
+
+          <div class="col-span-12 lg:col-span-6 pt-10 px-4 lg:ml-20">
             <h1 class="pb-5">Faith & Service</h1>
             <p class="text-4xl font-bold pb-5">The Demands of Justice</p>
             <div class="bg-[#d39f10] w-10 h-1"></div>
@@ -149,13 +158,24 @@
               knowledge because of the powerful tool it can be to improve
               humankind.
             </p>
-            <button class="p-2 border rounded-lg w-50 ml-72">
+            <button class="p-2 border rounded-lg w-50 ml-0 lg:ml-72">
               Faith & Service at ND
             </button>
           </div>
-          <img class="col-span-6" src="/image/pillar-faith-1200.avif" alt="" />
-          <img class="col-span-6" src="/image/pillar-global-1200.avif" alt="" />
-          <div class="col-span-6 pt-10 ml-20">
+
+          <img
+            class="col-span-12 lg:col-span-6 w-full"
+            src="/image/pillar-faith-1200.avif"
+            alt=""
+          />
+
+          <img
+            class="col-span-12 lg:col-span-6 w-full"
+            src="/image/pillar-global-1200.avif"
+            alt=""
+          />
+
+          <div class="col-span-12 lg:col-span-6 pt-10 px-4 lg:ml-20">
             <h1 class="pb-5">Global</h1>
             <h2 class="text-4xl font-bold pb-5">The Connected World</h2>
             <div class="bg-[#d39f10] w-10 h-1"></div>
@@ -164,7 +184,7 @@
               Notre Dame, because inquiry and scholarly exchange are enriched by
               the pursuit of cultural fluency.
             </p>
-            <button class="p-2 border rounded-lg w-50 ml-72">
+            <button class="p-2 border rounded-lg w-50 ml-0 lg:ml-72">
               Global Scholarship at ND
             </button>
           </div>
@@ -315,8 +335,6 @@
 
       <img class="w-[900px]" src="/image/dowd-students-400.jpeg" alt="" />
     </div>
-
-    <!-- division -->
     <div class="container mx-auto p-14">
       <div class="mt-20">
         <h1 class="text-xl">UNIVERSITY EVENTS</h1>
@@ -335,7 +353,6 @@
         </div>
       </div>
 
-      <!-- card -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 gap-y-10 pt-10">
         <div class="flex space-x-12">
           <div class="">
